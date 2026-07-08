@@ -1,0 +1,116 @@
+// variables / tipografias
+@import "./utilities/variables.scss";
+
+// base
+@import "./base/reset.scss";
+@import "./base/typo.scss";
+
+// views del sitio
+@import "./views/trabajos";
+@import "./views/bio";
+@import "./views/sketching";
+@import "./views/contacto";
+
+
+//color navbar
+.navbar-expand-lg.bg-body-tertiary{
+  background-color: white!important;
+}
+
+//Logo Home NavBar
+.navbar-brand {
+  img {
+    margin: 0px;
+    width: 40px;
+    height: auto;
+  }
+}
+
+
+//navbar
+.navbar-collapse {
+  a {
+    font-family: $font-principal;
+    color: black;
+    margin: 0 30px;
+    letter-spacing: 5px;
+
+    &:hover {
+      scale: 105%;
+    }
+  }
+}
+
+
+
+//texto portada
+.portada {
+  font-family: $font-principal;
+
+  p{
+    margin: 0;
+  }
+
+  &__bloqueTexto {
+    padding: 160px 10px 0 10px;
+  }
+
+  &__h1 {
+    font-weight: 800;
+  }
+
+  &__iconMail {
+    margin: 0px 0px 95px 0px;
+    scale: 40%;
+    transition: all .4s ease-out;
+    transform-origin: center center;
+  }
+}
+
+
+
+//icono mail presentacion
+.portada__iconMail:hover {
+  transform: scale(1.25);
+  transition: all .15s ease-in;
+}
+
+
+
+//gif portada
+.gifPortada {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  object-fit: contain;
+}
+
+
+
+
+
+
+//footer
+.footer {
+
+  a {
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+  &__mail img {
+    scale: $contact-scale;
+  }
+
+  &__in img {
+    scale: $contact-scale;
+  }
+
+  &__ig img {
+    scale: $contact-scale;
+  }
+}
+
+
+

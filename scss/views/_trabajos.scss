@@ -1,0 +1,23 @@
+//galeria trabajos
+div {
+    .col-lg-4.col-xl-4 {
+      padding: 0;
+      transition:all .1s ease-out;
+      transform-origin: center center;
+    }
+    .quilmes {
+      width: 100vw;
+      height: auto;
+      transition:all .1s ease-out;
+    }
+  }
+
+//icono mail presentacion
+.container__trabajos div:hover {
+  transform: scale(1.015);
+  transition:all .1s ease-in;
+}
+
+.primerFila{
+  padding: 60px 0px 0px 0px;
+}

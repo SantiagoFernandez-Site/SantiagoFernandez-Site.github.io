@@ -1,0 +1,30 @@
+
+//Texto contacto
+.contacto {
+    font-family: $font-principal;
+    
+    p{
+        margin: 0;
+      }
+    
+      &__texto {
+        padding: 400px 10px 360px 10px;
+      }
+    
+    h1 {
+        font-weight: 800;
+    }
+
+}
+
+
+//hover botones
+    .btnUno:hover{
+    transform: scale(1.05);
+    transition: all .15s ease-in;
+}
+
+    .btnDos:hover{
+    transform: scale(1.05);
+    transition: all .15s ease-in;
+}
