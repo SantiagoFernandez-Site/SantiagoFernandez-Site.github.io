@@ -564,3 +564,37 @@ body {
     transform: translateX(-50%) translateY(-6px);
   }
 }
+
+@media (max-width: 768px) {
+
+  .site-header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 45px 24px 40px;
+    gap: 24px;
+    align-items: start;
+  }
+
+  .site-nav {
+    align-items: flex-end;
+    gap: 18px;
+  }
+
+  .work-grid {
+    padding: 0 24px 24px;
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (hover: none), (pointer: coarse) {
+
+  * {
+    cursor: auto !important;
+  }
+
+  .custom-cursor {
+    display: none !important;
+  }
+
+}
